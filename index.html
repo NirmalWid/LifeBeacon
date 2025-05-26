@@ -73,12 +73,13 @@
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <!-- Add search input here -->
- <form id="search-form" class="d-flex ms-3">
-  <input type="text" id="search-input" class="form-control" placeholder="Search" onkeyup="searchFunction()" aria-label="Search">
-  <span class="input-group-text" style="cursor: pointer;">
-    <i id="searchIcon" class="bi bi-search"></i>
-  </span>
-</form>
+        <form id="search-form" class="d-flex ms-3">
+          <input type="text" id="search-input" class="form-control" placeholder="Search" onkeyup="searchFunction()"
+            aria-label="Search">
+          <span class="input-group-text" style="cursor: pointer;">
+            <i id="searchIcon" class="bi bi-search"></i>
+             </span>
+        </form>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
@@ -146,22 +147,30 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2 d-flex justify-content-center" data-aos="fade-left" data-aos-delay="100">
+          <div class="col-lg-6 order-1 order-lg-2 d-flex justify-content-center" data-aos="fade-left"
+            data-aos-delay="100">
             <img src="assets/img/smart-breeze.PNG" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
 
             <!--class="fst-italic"-->
-            
+
             <h2>About the System</h2>
             <p class="justify-text">
-            When disaster strikes and traditional networks fail, communication becomes a matter of life and death. 
-            Our project delivers a fully decentralized, infrastructure-free communication and localization system designed for post-disaster environments. 
-            Using Bluetooth Low Energy (BLE) and Wi-Fi Direct, we create a real-time ad-hoc network between smartphones and microcontrollers - no mobile data or internet required. 
-            A built-in self-healing mechanism ensures continuous communication by automatically rerouting data when nodes fail. 
-            <br>The system includes a secure SOS messaging platform for broadcasting or directly sending encrypted emergency alerts, and a GPS-free victim localization feature that uses ESP32 sensors to detect nearby phones and estimate their positions with high accuracy. 
-            All data is managed through a hybrid database model, combining offline storage on mobile devices with a centralized Cassandra database for scalable, real-time monitoring through a command dashboard. 
-            <br><br><strong><em>This is more than just a communication tool - it’s a lifeline built to work when everything else fails.</strong></em>
+              When disaster strikes and traditional networks fail, communication becomes a matter of life and death.
+              Our project delivers a fully decentralized, infrastructure-free communication and localization system
+              designed for post-disaster environments.
+              Using Bluetooth Low Energy (BLE) and Wi-Fi Direct, we create a real-time ad-hoc network between
+              smartphones and microcontrollers - no mobile data or internet required.
+              A built-in self-healing mechanism ensures continuous communication by automatically rerouting data when
+              nodes fail.
+              <br>The system includes a secure SOS messaging platform for broadcasting or directly sending encrypted
+              emergency alerts, and a GPS-free victim localization feature that uses ESP32 sensors to detect nearby
+              phones and estimate their positions with high accuracy.
+              All data is managed through a hybrid database model, combining offline storage on mobile devices with a
+              centralized Cassandra database for scalable, real-time monitoring through a command dashboard.
+              <br><br><strong><em>This is more than just a communication tool - it’s a lifeline built to work when
+                  everything else fails.</strong></em>
             </p>
           </div>
         </div>
@@ -200,36 +209,42 @@
 
         <div class="row">
           <!-- <div class="image col-lg-6 " style="background-image: url(&quot;assets/img/homepage.PNG&quot;);background-size: auto" data-aos="fade-right"></div> -->
-          <div class="image col-lg-6 " data-aos="fade-right"><img src="assets/img/simulation2.jpg" class="img-fluid" alt="">
+          <div class="image col-lg-6 " data-aos="fade-right"><img src="assets/img/simulation2.jpg" class="img-fluid"
+              alt="">
           </div>
           <div class="col-lg-6 " data-aos="fade-left" data-aos-delay="100">
             <div class="icon-box mt-5 mt-lg-0 " data-aos="zoom-in" data-aos-delay="150">
               <i class="ri-temp-hot-line"></i>
               <h4>Decentralized Ad-Hoc Communication Network</h4>
-              <p class="justify-text">Utilizes BLE and Wi-Fi Direct to form a Mobile Ad-Hoc Network (MANET) between smartphones and microcontrollers without any dependence on cellular or internet infrastructure.
+              <p class="justify-text">Utilizes BLE and Wi-Fi Direct to form a Mobile Ad-Hoc Network (MANET) between
+                smartphones and microcontrollers without any dependence on cellular or internet infrastructure.
               </p>
             </div>
             <div class="icon-box mt-5 " data-aos="zoom-in" data-aos-delay="150">
               <i class="bx bx-wind"></i>
               <h4>Self-Healing Network Mechanism</h4>
-              <p class="justify-text">Automatically detects disconnected or failed nodes and dynamically reroutes messages through available devices to maintain communication.
+              <p class="justify-text">Automatically detects disconnected or failed nodes and dynamically reroutes
+                messages through available devices to maintain communication.
               </p>
             </div>
             <div class="icon-box mt-5 \" data-aos="zoom-in" data-aos-delay="150">
               <i class="bi bi-fan"></i>
               <h4>Secure SOS Messaging System</h4>
-              <p class="justify-text">Enables victims and responders to send broadcast or targeted SOS messages, fully encrypted and prioritized for low-latency delivery.</p>
+              <p class="justify-text">Enables victims and responders to send broadcast or targeted SOS messages, fully
+                encrypted and prioritized for low-latency delivery.</p>
             </div>
             <div class="icon-box mt-5 " data-aos="zoom-in" data-aos-delay="150">
               <i class="bi bi-moisture"></i>
               <h4>GPS-Free Victim Localization System</h4>
-              <p class="justify-text">Detects smartphones by capturing Wi-Fi probe requests using ESP32 devices and estimates locations via RSSI-based trilateration.
+              <p class="justify-text">Detects smartphones by capturing Wi-Fi probe requests using ESP32 devices and
+                estimates locations via RSSI-based trilateration.
               </p>
             </div>
             <div class="icon-box mt-5 " data-aos="zoom-in" data-aos-delay="150">
               <i class="bi bi-power"></i>
               <h4>Dual-Layer Data Management with Real-Time Dashboard</h4>
-              <p class="justify-text">Integrates SQLite on mobile devices for offline data capture and Apache Cassandra at the base station for scalable storage and analysis.
+              <p class="justify-text">Integrates SQLite on mobile devices for offline data capture and Apache Cassandra
+                at the base station for scalable storage and analysis.
               </p>
             </div>
           </div>
@@ -615,17 +630,41 @@
                     <br>
                     <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
                     <p class="justify-text">
-                      Technologies like Bluetooth Low Energy (BLE), Wi-Fi Direct, and Mobile Ad-Hoc Networks (MANETs) enable direct device-to-device communication without relying on centralized infrastructure. In disaster scenarios, where mobile networks are often down, these technologies help establish decentralized emergency networks that restore vital connectivity. However, MANETs can be affected by node mobility and environmental interference. To address these challenges, BLE and Wi-Fi Direct have been integrated into disaster communication systems, offering more stable, energy-efficient, and reliable solutions.
+                      Technologies like Bluetooth Low Energy (BLE), Wi-Fi Direct, and Mobile Ad-Hoc Networks (MANETs)
+                      enable direct device-to-device communication without relying on centralized infrastructure. In
+                      disaster scenarios, where mobile networks are often down, these technologies help establish
+                      decentralized emergency networks that restore vital connectivity. However, MANETs can be affected
+                      by node mobility and environmental interference. To address these challenges, BLE and Wi-Fi Direct
+                      have been integrated into disaster communication systems, offering more stable, energy-efficient,
+                      and reliable solutions. <br>
 
-                      BLE stands out for its low power consumption and native support on most smartphones, making it ideal in power-limited environments. Its design supports short, intermittent communication while maintaining network resilience. Self-healing algorithms further improve this by automatically reconfiguring routes when devices disconnect, ensuring uninterrupted communication.
+                      BLE stands out for its low power consumption and native support on most smartphones, making it
+                      ideal in power-limited environments. Its design supports short, intermittent communication while
+                      maintaining network resilience. Self-healing algorithms further improve this by automatically
+                      reconfiguring routes when devices disconnect, ensuring uninterrupted communication. <br>
 
-                      Wi-Fi Direct complements BLE by enabling high-speed, long-range peer-to-peer connections without internet access. Its ability to handle large data transfers quickly makes it essential for fast information sharing during emergencies. Together, BLE and Wi-Fi Direct form a hybrid communication layer that balances efficiency, range, and reliability.
+                      Wi-Fi Direct complements BLE by enabling high-speed, long-range peer-to-peer connections without
+                      internet access. Its ability to handle large data transfers quickly makes it essential for fast
+                      information sharing during emergencies. Together, BLE and Wi-Fi Direct form a hybrid communication
+                      layer that balances efficiency, range, and reliability. <br>
 
-                      To support emergency communication, ad-hoc SOS messaging systems have been developed that bypass traditional delays and ensure fast, secure message delivery. These systems use end-to-end encryption to protect sensitive information and ensure message confidentiality. Additionally, Wi-Fi probe request analysis enables real-time victim localization. As smartphones search for networks, they emit signals that can be detected by nearby ESP32 devices. By measuring signal strength from multiple detection points, the system can estimate the victim’s location—even without GPS or user interaction.
+                      To support emergency communication, ad-hoc SOS messaging systems have been developed that bypass
+                      traditional delays and ensure fast, secure message delivery. These systems use end-to-end
+                      encryption to protect sensitive information and ensure message confidentiality. Additionally,
+                      Wi-Fi probe request analysis enables real-time victim localization. As smartphones search for
+                      networks, they emit signals that can be detected by nearby ESP32 devices. By measuring signal
+                      strength from multiple detection points, the system can estimate the victim’s location—even
+                      without GPS or user interaction. <br>
 
-                      For data handling, a hybrid model is used: SQLite supports fast, local data storage on mobile devices, while Apache Cassandra provides scalable, fault-tolerant storage at the central server. A real-time dashboard allows rescue coordinators to track messages, monitor device activity, and visualize victim locations, enabling smarter and faster decision-making.
+                      For data handling, a hybrid model is used: SQLite supports fast, local data storage on mobile
+                      devices, while Apache Cassandra provides scalable, fault-tolerant storage at the central server. A
+                      real-time dashboard allows rescue coordinators to track messages, monitor device activity, and
+                      visualize victim locations, enabling smarter and faster decision-making. <br>
 
-                      By combining MANETs, BLE, Wi-Fi Direct, passive localization, encrypted messaging, and resilient data management, this system delivers a powerful, scalable solution for disaster response. It ensures continuous communication, precise victim tracking, and robust coordination in even the most infrastructure-deficient environments.
+                      By combining MANETs, BLE, Wi-Fi Direct, passive localization, encrypted messaging, and resilient
+                      data management, this system delivers a powerful, scalable solution for disaster response. It
+                      ensures continuous communication, precise victim tracking, and robust coordination in even the
+                      most infrastructure-deficient environments.
                       users in tropical regions.
                     </p>
                     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
@@ -646,9 +685,22 @@
                     <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
 
                     <p class="justify-text">
-                      During natural or man-made disasters, traditional communication systems such as cellular networks and internet services frequently collapse. This leaves victims disconnected and rescue teams unable to coordinate effectively. Existing solutions depend heavily on this infrastructure, making them unreliable in real emergency conditions where independent, infrastructure-free communication is essential.<br><br>
-                      Most current systems fail to offer a complete solution that combines decentralized communication, mobility support, secure SOS messaging, and real-time adaptability. Mobile Ad-Hoc Networks (MANETs), while promising, often suffer from instability due to node mobility and lack dynamic self-healing capabilities. Additionally, many systems lack proper encryption, prioritization of emergency messages, and the flexibility to function fully offline, which is critical during peak crisis periods.<br><br>
-                      In many disaster environments, GPS signals are weak or blocked, making it difficult to locate victims. Existing location-tracking methods often require user interaction or rely on internet-based services. Moreover, the absence of an integrated platform to visualize real-time victim locations, device health, and message flow significantly limits emergency teams' ability to make informed, timely decisions.</p>
+                      During natural or man-made disasters, traditional communication systems such as cellular networks
+                      and internet services frequently collapse. This leaves victims disconnected and rescue teams
+                      unable to coordinate effectively. Existing solutions depend heavily on this infrastructure, making
+                      them unreliable in real emergency conditions where independent, infrastructure-free communication
+                      is essential.<br><br>
+                      Most current systems fail to offer a complete solution that combines decentralized communication,
+                      mobility support, secure SOS messaging, and real-time adaptability. Mobile Ad-Hoc Networks
+                      (MANETs), while promising, often suffer from instability due to node mobility and lack dynamic
+                      self-healing capabilities. Additionally, many systems lack proper encryption, prioritization of
+                      emergency messages, and the flexibility to function fully offline, which is critical during peak
+                      crisis periods.<br><br>
+                      In many disaster environments, GPS signals are weak or blocked, making it difficult to locate
+                      victims. Existing location-tracking methods often require user interaction or rely on
+                      internet-based services. Moreover, the absence of an integrated platform to visualize real-time
+                      victim locations, device health, and message flow significantly limits emergency teams' ability to
+                      make informed, timely decisions.</p>
 
                     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                   </div>
@@ -667,7 +719,17 @@
                     <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
                     <h5 class="card-title">RESEARCH GAP</h5><br>
                     <p class="justify-text">
-                      Despite advancements in disaster communication technologies, there is a notable lack of an integrated, infrastructure-independent system that can ensure reliable communication, secure messaging, and real-time victim localization in disconnected environments. Existing solutions often focus on isolated components such as offline messaging, MANETs, or GPS-based tracking, but fail to combine these into a unified, scalable framework. Most systems also depend on centralized infrastructure, lack self-healing capabilities, and are ineffective in highly dynamic disaster zones where connectivity is unstable and user interaction is limited. Furthermore, current victim localization methods typically rely on GPS or active user input, which is impractical in collapsed buildings or unconscious victim scenarios. This gap highlights the need for a decentralized, self-adaptive solution that enables autonomous communication, passive localization, and centralized monitoring - entirely independent of traditional networks.
+                      Despite advancements in disaster communication technologies, there is a notable lack of an
+                      integrated, infrastructure-independent system that can ensure reliable communication, secure
+                      messaging, and real-time victim localization in disconnected environments. Existing solutions
+                      often focus on isolated components such as offline messaging, MANETs, or GPS-based tracking, but
+                      fail to combine these into a unified, scalable framework. Most systems also depend on centralized
+                      infrastructure, lack self-healing capabilities, and are ineffective in highly dynamic disaster
+                      zones where connectivity is unstable and user interaction is limited. Furthermore, current victim
+                      localization methods typically rely on GPS or active user input, which is impractical in collapsed
+                      buildings or unconscious victim scenarios. This gap highlights the need for a decentralized,
+                      self-adaptive solution that enables autonomous communication, passive localization, and
+                      centralized monitoring - entirely independent of traditional networks.
                     </p>
                     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                   </div>
@@ -676,7 +738,7 @@
             </div>
           </div>
 
-          <div class="portfolio-item filter-ro">  
+          <div class="portfolio-item filter-ro">
 
             <div class="row">
               <div class="col-sm-12">
@@ -684,22 +746,30 @@
                   <div class="card-body">
                     <h5 class="card-title">MAIN OBJECTIVE</h5>
                     <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
-                    <p class="justify-text">To design and implement a decentralized, disaster-resilient telecommunication system that enables infrastructure-free communication, 
-                      secure SOS messaging, real-time victim localization, and reliable data management in post-disaster environments using commonly available mobile technologies.<br><br>
+                    <p class="justify-text">To design and implement a decentralized, disaster-resilient
+                      telecommunication system that enables infrastructure-free communication,
+                      secure SOS messaging, real-time victim localization, and reliable data management in post-disaster
+                      environments using commonly available mobile technologies.<br><br><br>
 
-                    <h5 class="card-title">Specific Objectives</h5>
-                    <b>To develop a hybrid ad-hoc communication network</b> using Bluetooth Low Energy (BLE) 
-                    and Wi-Fi Direct for device-to-device messaging without relying on internet or cellular infrastructure.<br><br>
+                    <h5 class="card-title">Specific Objectives</h5> <br>
+                    <b>To develop a hybrid ad-hoc communication network</b> using Bluetooth Low Energy (BLE)
+                    and Wi-Fi Direct for device-to-device messaging without relying on internet or cellular
+                    infrastructure.<br><br>
 
-                    <b>To implement a secure and prioritized SOS messaging system</b> that supports both broadcast and targeted messages with end-to-end encryption and offline functionality.<br><br>
+                    <b>To implement a secure and prioritized SOS messaging system</b> that supports both broadcast and
+                    targeted messages with end-to-end encryption and offline functionality.<br><br>
 
-                    <b>To design a self-healing network mechanism</b> that dynamically reroutes communication paths and automatically reintegrates disconnected nodes to maintain continuous connectivity.<br><br>
+                    <b>To design a self-healing network mechanism</b> that dynamically reroutes communication paths and
+                    automatically reintegrates disconnected nodes to maintain continuous connectivity.<br><br>
 
-                    <b>To establish a GPS-independent victim localization system</b> using Wi-Fi probe request analysis and RSSI-based trilateration with ESP32 devices.</p>
+                    <b>To establish a GPS-independent victim localization system</b> using Wi-Fi probe request analysis
+                    and RSSI-based trilateration with ESP32 devices.</p>
 
-                    <b>To integrate a dual-database data management model</b> using SQLite for offline storage on mobile devices and Apache Cassandra for centralized, scalable storage with real-time synchronization.</p>
+                    <b>To integrate a dual-database data management model</b> using SQLite for offline storage on mobile
+                    devices and Apache Cassandra for centralized, scalable storage with real-time synchronization.</p>
 
-                    <b>To build a centralized monitoring dashboard</b> that visualizes network status, SOS alerts, and victim locations for improved situational awareness and coordination by rescue teams.</p>
+                    <b>To build a centralized monitoring dashboard</b> that visualizes network status, SOS alerts, and
+                    victim locations for improved situational awareness and coordination by rescue teams.</p>
                   </div>
                 </div>
               </div>
@@ -717,19 +787,28 @@
                     <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
 
                     <p class="justify-text">
-                      The methodology for this research project focuses on developing an AI-enhanced HVAC system that optimizes energy 
-                      efficiency and user comfort, specifically for Sri Lanka's tropical climate. The development of AC systems originated 
-                      from the increasing demand to control the thermal comfort of indoor environments. Moreover, these systems were well 
-                      known for their high energy consumption, which led to a pressing need for more intelligent and efficient solutions. 
-                      The proposed methodology is organized into several stages to achieve energy efficiency while maintaining the optimal 
-                      comfort level by optimizing several important parameters within air conditioning systems. During the proposed work, 
-                      first of all by analyzing previous trends and all, decide how many numbers of ACs should be turned on in order to 
-                      achieve energy efficiency while maintaining the optimal comfort level. Once after the number of Acs defines, which ACs 
-                      should be turned on factor also takes into consideration. After deciding number of ACs and which ACs, now it’s time to 
-                      focus on the important factors like airflow, temperature and humidity. Adjust the airflow based on 
-                      the occupant presence, controlling room temperature based on several environmental factors and at the same time 
-                      control the fan speed to adjust the room temperature for its ideal level and also control the relative humidity 
-                      inside the space automatically without manual intervention, makes the proposed work unique and a sustainable solution.</p>
+                      The development of the disaster-resilient telecommunication system followed a structured
+                      methodology consisting of design, implementation, and testing phases.
+                      The process began with a detailed analysis of existing communication challenges in post-disaster
+                      environments, supported by field reports and academic research. <br>
+                      Based on the identified requirements, a hybrid Mobile Ad-Hoc Network (MANET) architecture was
+                      designed using Bluetooth Low Energy (BLE) and Wi-Fi Direct to enable peer-to-peer communication
+                      without internet or cellular dependency.
+                      A cross-platform mobile application was developed using Flutter, incorporating automated device
+                      discovery, encrypted SOS messaging, and real-time message relay capabilities.
+                      A self-healing mechanism was integrated to detect node failures and dynamically reroute data
+                      through alternate paths, ensuring network resilience. For victim localization, ESP32
+                      microcontrollers were configured to operate in promiscuous mode to passively capture Wi-Fi probe
+                      requests.
+                      By applying RSSI-based trilateration, the system could estimate victim locations without relying
+                      on GPS. <br>
+                      Data management was handled using a dual-database approach: SQLite for offline storage on user
+                      devices and Apache Cassandra for centralized, high-availability storage at the base station.
+                      A centralized dashboard, built using Node-RED, provided real-time monitoring of devices, SOS
+                      messages, and victim locations.
+                      The complete system was tested under simulated disaster scenarios to evaluate performance metrics
+                      such as connection stability, latency, localization accuracy, and data synchronization
+                      reliability.</p>
                   </div>
                 </div>
               </div>
@@ -823,7 +902,7 @@
       </div>
     </section><!-- End Portfolio Section -->
 
-  
+
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
       <div class="container aos-init aos-animate" data-aos="fade-up">
@@ -838,16 +917,16 @@
           <div class="col-md-3 col-sm-3 d-flex align-items-stretch">
             <div class="member aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
-                <img src="assets/img/hiruni.png" class="img-fluid" alt="">
+                <img src="assets/img/nirmal.jpeg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href="mailto:saparamaduhiruni@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/hiruni-saparamadu-bb09b0264/"><i class="bi bi-linkedin"></i></a>
+                  <a href="mailto:nirmalwidanage777@gmail.com" ><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/nirmalwidanage/" target="_blank"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <h4>Hiruni Saparamadu</h4>
+                <h4>Nirmal Widanage</h4>
                 <h6>Researcher</h6>
-                <span>Bachelor of Science (Hons) in Information Technology Specializing in Data Science</span>
+                <span>BSc (Hons) in Information Technology Specialising in Computer Systems & Network Engineering</span>
               </div>
             </div>
           </div>
@@ -856,16 +935,16 @@
           <div class="col-md-3 col-sm-3 d-flex align-items-stretch">
             <div class="member aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
               <div class="member-img">
-                <img src="assets/img/nuwani.jpg" class="img-fluid" alt="">
+                <img src="assets/img/d.jpeg" class="img-fluid" alt="">
                 <div class="social">
                   <a href="mailto:nuwanidilara@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/nuwani-dilara/"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/dhanukamuhandiram/" target="_blank" ><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <h4>Nuwani Dilara</h4>
+                <h4>Dhanuka Muhandiramge</h4>
                 <h6>Researcher</h6>
-                <span>Bachelor of Science (Hons) in Information Technology Specializing in Data Science</span>
+                <span>BSc (Hons) in Information Technology Specialising in Computer Systems & Network Engineering</span>
               </div>
             </div>
           </div>
@@ -873,16 +952,16 @@
           <div class="col-md-3 col-sm-3 d-flex align-items-stretch">
             <div class="member aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
               <div class="member-img">
-                <img src="assets/img/thamasha.jpg" class="img-fluid" alt="">
+                <img src="assets/img/kalana.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href="mailto:bandaraikt@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/thamasha-bandara-324930224/"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/kalanathilochanabandara/" target="_blank"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <h4>Thamasha Bandara</h4>
+                <h4>Kalana Bandara</h4>
                 <h6>Researcher</h6>
-                <span>Bachelor of Science (Hons) in Information Technology Specializing in Data Science</span>
+                <span>BSc (Hons) in Information Technology Specialising in Computer Systems & Network Engineering</span>
               </div>
             </div>
           </div>
@@ -890,16 +969,16 @@
           <div class="col-md-3 col-sm-3 d-flex align-items-stretch">
             <div class="member aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">
               <div class="member-img">
-                <img src="assets/img/anjalika.jpg" class="img-fluid" alt="">
+                <img src="assets/img/thisun.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href="mailto:meriyananjalika99@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/anjalika-meriyan-a37666260/"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/thisun-senaratna/" target="_blank"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <h4>Anjalika Meriyan</h4>
+                <h4>Thisun Senaratna</h4>
                 <h6>Researcher</h6>
-                <span>Bachelor of Science (Hons) in Information Technology Specializing in Data Science</span>
+                <span>BSc (Hons) in Information Technology Specialising in Computer Systems & Network Engineering</span>
               </div>
             </div>
           </div>
@@ -912,17 +991,16 @@
           <div class="col-md-3 col-sm-3 d-flex align-items-stretch">
             <div class="member aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/jenny.png" class="img-fluid" alt="">
+                <img src="assets/img/dinithip.jpeg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href="mailto:jenny.k@sliit.lk"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/jenny-krishara-1a09a0111/"><i
-                      class="bi bi-linkedin"></i></a>
+                  <a href="mailto:dinithi.p@sliit.lk"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/dinithi-pandithage-8a1163160/" target="_blank"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <h4>Ms. Jenny Krishara</h4>
+                <h4>Ms. Dinithi Pandithage</h4>
                 <h6>Supervisor</h6>
-                <span>Senior Lecturer, Sri Lanka Institute of Information Technology</span>
+                <span>Lecturer, Faculty of Computing | Sri Lanka Institute of Information Technology</span>
               </div>
             </div>
           </div>
@@ -932,17 +1010,17 @@
           <div class="col-md-3 col-sm-3 d-flex align-items-stretch">
             <div class="member aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
               <div class="member-img">
-                <img src="assets/img/samadhi.jpg" class="img-fluid" alt="">
+                <img src="assets/img/Dr__Pradeep.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href="mailto:samadhi.r@sliit.lk"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/samadhi-chathuranga-rathnayake/"><i
+                  <a href="mailto:Pradeep.a@sliit.lk"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/pradeep-abeygunawardhana-3a788126/" target="_blank"><i
                       class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <h4>Mr. Samadhi Rathnayake</h4>
+                <h4>Prof. Pradeep Abeygunawardhana</h4>
                 <h6>Co-Supervisor</h6>
-                <span>Lecturer, Sri Lanka Institute of Information Technology</span>
+                <span>Dean, Faculty of Computing | Sri Lanka Institute of Information Technology</span>
               </div>
             </div>
           </div>
@@ -985,13 +1063,13 @@
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>smartbreezesrilanka@gmail.com</p>
+                <p>life.beacon@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+94 071 019 2886</p>
+                <p>+94 70 524 0051</p>
               </div>
 
             </div>
@@ -1001,26 +1079,26 @@
           <div class="col-lg-8 mt-5 mt-lg-0">
             <form id="contact-form">
               <div class="row">
-                  <div class="col-md-6 form-group">
-                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                  </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
-                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                  </div>
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
               </div>
               <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
-                  <div class="loading" style="display: none;">Loading</div>
-                  <div class="error-message" style="display: none;"></div>
-                  <div class="sent-message" style="display: none;">Your message has been sent. Thank you!</div>
+                <div class="loading" style="display: none;">Loading</div>
+                <div class="error-message" style="display: none;"></div>
+                <div class="sent-message" style="display: none;">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
-          </form>
+            </form>
 
           </div>
 
@@ -1119,15 +1197,15 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  
+
   <script>
     function searchFunction() {
       // Get the search input
       let input = document.getElementById('search-input').value.toLowerCase();
-  
+
       // Get all the section headings or elements you want to search through
       let sections = document.querySelectorAll('section');
-  
+
       // Loop through the sections and show or hide based on the search input
       sections.forEach(section => {
         const sectionText = section.textContent.toLowerCase();
@@ -1137,48 +1215,48 @@
           section.style.display = 'none'; // Hide non-matching section
         }
       });
-    }
-  </script>
+    }
+  </script>
 
 
-<!-- Include the EmailJS SDK -->
-<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script type="text/javascript">
-// Initialize EmailJS with your user ID
-(function(){
-    emailjs.init("C3Vk-CvBp_l0ckhO8"); // Replace with your user ID
-})();
+  <!-- Include the EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript">
+    // Initialize EmailJS with your user ID
+    (function () {
+      emailjs.init("C3Vk-CvBp_l0ckhO8"); // Replace with your user ID
+    })();
 
-// Handle form submission
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent default form submission
+    // Handle form submission
+    document.getElementById('contact-form').addEventListener('submit', function (event) {
+      event.preventDefault(); // Prevent default form submission
 
-    // Show loading message and hide others
-    document.querySelector('.loading').style.display = 'block';
-    document.querySelector('.sent-message').style.display = 'none';
-    document.querySelector('.error-message').style.display = 'none';
+      // Show loading message and hide others
+      document.querySelector('.loading').style.display = 'block';
+      document.querySelector('.sent-message').style.display = 'none';
+      document.querySelector('.error-message').style.display = 'none';
 
-    // Send the email using EmailJS
-    emailjs.sendForm('service_u5y65x5', 'template_97fmwml', this)
-        .then(function() {
-            // Hide loading and show success message
-            document.querySelector('.loading').style.display = 'none';
-            document.querySelector('.sent-message').style.display = 'block';
-            document.getElementById('contact-form').reset(); // Reset the form
+      // Send the email using EmailJS
+      emailjs.sendForm('service_u5y65x5', 'template_97fmwml', this)
+        .then(function () {
+          // Hide loading and show success message
+          document.querySelector('.loading').style.display = 'none';
+          document.querySelector('.sent-message').style.display = 'block';
+          document.getElementById('contact-form').reset(); // Reset the form
 
-            // Hide the success message after 1.5 seconds
-            setTimeout(function() {
-                document.querySelector('.sent-message').style.display = 'none';
-            }, 1500); // 1500 milliseconds = 1.5 seconds
-        }, function(error) {
-            // Hide loading and show error message
-            document.querySelector('.loading').style.display = 'none';
-            document.querySelector('.error-message').innerHTML = 'Failed to send message. Error: ' + JSON.stringify(error);
-            document.querySelector('.error-message').style.display = 'block';
-            console.error('FAILED...', error); // Log the error to the console
+          // Hide the success message after 1.5 seconds
+          setTimeout(function () {
+            document.querySelector('.sent-message').style.display = 'none';
+          }, 1500); // 1500 milliseconds = 1.5 seconds
+        }, function (error) {
+          // Hide loading and show error message
+          document.querySelector('.loading').style.display = 'none';
+          document.querySelector('.error-message').innerHTML = 'Failed to send message. Error: ' + JSON.stringify(error);
+          document.querySelector('.error-message').style.display = 'block';
+          console.error('FAILED...', error); // Log the error to the console
         });
-});
-</script>
+    });
+  </script>
 
 </body>
 
