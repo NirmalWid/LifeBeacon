@@ -1,18 +1,16 @@
-# Project Title: Smart Air Conditioning System Enhancing Energy Efficiency and User Comfort
+# Project Title: Life Beacon: Offline Emergency Communication and Victim Detection System for Disaster Areas
 
-## Group ID: 2024-092
+## Group ID: 24-25J-049
 
 ### Supervisor
-- Mrs. Jenny Krishara
+- Ms. Dinithi Pandithage
 
 ### Co-supervisor
-- Mr. Samadhi Rathnayake
+- Prof. Pradeep Abeygunawardhana
 
-### External Supervisor
-- Mr. Rukmal Asiri
 
 ### Group Members
-- **Dilara V.G.N** - IT21111488 - +94710192886 - it21111488@my.sliit.lk
-- **Bandara I.K.T** - IT21104244 - +94777894491 - it21104244@my.sliit.lk
-- **Saparaymadu D.D.H.I** - IT21032288 - +94705947805 - it21032288@my.sliit.lk
-- **Meriyan S.M.D.S.A** - IT21076916 - +94775876087 - it21076916@my.sliit.lk
+- **Nirmal Widanage
+- **Dhanuka Muhandiramge
+- **Kalana Bandara
+- **Thisun Senaratna
