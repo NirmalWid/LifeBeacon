@@ -10,7 +10,7 @@
 
 
 ### Group Members
-- **Nirmal Widanage
-- **Dhanuka Muhandiramge
-- **Kalana Bandara
-- **Thisun Senaratna
+- Nirmal Widanage
+- Dhanuka Muhandiramge
+- Kalana Bandara
+- Thisun Senaratna
